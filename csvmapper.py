@@ -2,6 +2,7 @@ import streamlit as st
 import csv
 import folium
 from streamlit_folium import folium_static
+#importing files
 
 st.title("CSV File to Map")
 filevar = st.file_uploader("Upload CSV files", accept_multiple_files=True)
